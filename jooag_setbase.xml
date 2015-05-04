@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2.0" type="plugin" group="system" method="upgrade">
+	<name>JooAg setbase</name>
+	<creationDate>04.04.2013</creationDate>
+	<author>joomla-agentur.de - Ufuk Avcu</author>
+	<authorEmail>info@joomla-agentur.de</authorEmail>
+	<authorUrl>http://www.joomla-agentur.de</authorUrl>
+	<copyright>(C) 2009 - 2015 JooAg. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>3.x.0 Beta</version>
+	<description>
+	</description>
+	<files>
+		<filename plugin="jooag_setbase">jooag_setbase.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="url" type="text" default="" label="URL" description="" size="10" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
