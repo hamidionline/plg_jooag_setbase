@@ -15,5 +15,5 @@ class plgSystemJooag_setbase extends JPlugin {
 	public function onBeforeRender() {
 		$doc = JFactory::getDocument();
 		$doc->setBase(htmlspecialchars($this->params->get('url')));
-    }
+	}
 }
